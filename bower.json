@@ -1,0 +1,20 @@
+{
+  "name": "ng-tinymce",
+  "version": "0.0.1",
+  "authors": [
+    "minutephp <dev@minutephp.com>"
+  ],
+  "description": "custom tinymce editor directive",
+  "main": "ng-tinymce.js",
+  "keywords": [
+    "tinymce"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
