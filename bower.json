@@ -1,7 +1,6 @@
 {
   "name": "ng-tinymce",
-  "version": "v1.5.6",
-  "authors": [
+    "authors": [
     "minutephp <dev@minutephp.com>"
   ],
   "description": "custom tinymce editor directive",
