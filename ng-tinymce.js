@@ -3,7 +3,7 @@ angular.module('ng.tinymce', ['ngDialog'])
         toolbar: false,
         force_p_newlines: true,
         keep_styles: false,
-        valid_elements: "a[href],b,br,p[align],u,font[color],img[src|alt|align],small,ul,ol,li,strike",
+        valid_elements: "a[href],b,br,p[align],u,font[color],img[src|alt|align],small,ul,ol,li,strike,blockquote",
         plugins: ["link code wordcount legacyoutput"],
         menubar: "tools format insert",
         convert_urls: false,
