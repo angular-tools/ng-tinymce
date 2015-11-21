@@ -9,7 +9,7 @@ angular.module('ng.tinymce', ['ngDialog'])
         convert_urls: false,
         relative_urls: true,
         entity_encoding: "raw",
-        height: 300
+        height: 300,
     })
     .directive('ngTinymce', ['ngTinymceConfig', 'ngDialog', function (ngTinymceConfig, $dialog) {
         ngTinymceConfig = ngTinymceConfig || {};
@@ -109,6 +109,7 @@ angular.module('ng.tinymce', ['ngDialog'])
                 angular.extend(options, ngTinymceConfig);
 
                 setTimeout(function () {
+                    tinymce.baseURL = "/static/bower_components/tinymce";
                     tinymce.init(options);
                 });
 
