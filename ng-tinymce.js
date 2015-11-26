@@ -32,7 +32,7 @@ angular.module('ng.tinymce', ['ngDialog'])
                 }
 
                 if (attrs.ngTinymce) {
-                    console.log(attrs.ngTinymce);
+                    //console.log(attrs.ngTinymce);
                     angular.extend(ngTinymceConfig, scope.$eval(attrs.ngTinymce));
                 }
 
